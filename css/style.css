@@ -1,0 +1,71 @@
+.login,
+.registration {
+    max-width: 550px;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 50px 30px;
+    font-family: "Open sans", sans-serif;
+}
+
+ol,
+li {
+    margin: 0 !important;
+    padding: 0;
+    list-style-type: none;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.input-lg {
+    margin-top: 0;
+    margin-bottom: 15px;
+    border: 2px solid #dddddd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.btn-submit {
+    margin-top: 25px;
+    background-color: #0091D2 !important;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    border: rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    font-weight: 700;
+    color: #fff;
+    width: 250px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 3px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+    border-radius: 3px;
+    padding: 10px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
